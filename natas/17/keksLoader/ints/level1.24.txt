@@ -1,0 +1,1 @@
+echo "eval echo -n $(base64 -w0 level2.pl) |  base64  -d | perl - 24"

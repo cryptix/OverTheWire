@@ -1,0 +1,9 @@
+char=$(dd if=/etc/natas_webpass/natas17 count=1 bs=1)
+
+ord=$(printf '%d' \'$char)
+
+if [ $ord -eq 57 ]; then
+	echo ^j
+else 
+	echo ^n
+fi

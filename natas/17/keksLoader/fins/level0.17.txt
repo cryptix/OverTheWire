@@ -1,0 +1,2 @@
+echo '$( bash -c base64\ -d\ \<\<\<'$(base64 -w0 <<< $(./ints/level1.17.txt ))')'
+echo

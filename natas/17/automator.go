@@ -21,7 +21,7 @@ func main() {
 
 	for i := 0; i < 33; i++ {
 
-		file, err := ioutil.ReadFile(fmt.Sprintf("natas16payloads/%d.txt", i))
+		file, err := ioutil.ReadFile(fmt.Sprintf("keksLoader/payloads/%d.txt", i))
 		if err != nil {
 			panic(err)
 		}

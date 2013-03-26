@@ -1,1 +1,0 @@
-ls -l /etc | grep passwd
