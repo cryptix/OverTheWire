@@ -1,3 +1,7 @@
+// http://www.thesprawl.org/research/tor-control-protocol/#creating-custom-circuits
+// http://www.thesprawl.org/projects/tor-autocircuit/
+// http://schoolofprivacy.eu/post/43978479406/howto-use-tor-for-all-network-traffic-by-default-on
+
 package main
 
 import (
